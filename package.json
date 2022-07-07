@@ -1,0 +1,28 @@
+{
+  "name": "juanryes-random-names",
+  "version": "1.0.1",
+  "description": "Output aleatorio de nombres",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanr-yes/curso-npm.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Juan Reyes <reyjun4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanr-yes/curso-npm/issues"
+  },
+  "homepage": "https://github.com/juanr-yes/curso-npm#readme",
+  "bin": {
+    "random-names": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
